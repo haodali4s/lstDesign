@@ -1,0 +1,70 @@
+/* 此文件中的样式会自动应用到所有 dumi 页面中 */
+
+/* 1. 覆盖 Dumi 默认的 CSS 变量（推荐方式） */
+
+
+/* 2. 直接通过覆盖 Dumi 默认的类名来修改边距等样式 */
+
+/* 修改主体内容区域的内边距 (padding) */
+.dumi-default-doc-layout > main {
+  /* 原本可能是 padding: 0 48px; 你可以根据需要调整 */
+max-width: 100vw !important;}
+
+/* 修改组件 Demo 展示区域（白板容器）的边距 */
+.dumi-default-previewer {
+  margin-top: 24px !important;
+  margin-bottom: 24px !important;
+}
+.dumi-default-header-content{
+  max-width: none !important;
+}
+.dumi-default-sidebar {
+  min-width: 280px !important;
+}
+.dumi-default-content-footer{
+line-height: inherit !important;
+ nav > a{
+  max-width: none !important;
+ } 
+}
+
+/* 限制 Dumi 中 Markdown 表格的列宽 */
+.markdown table {
+  /* 表格布局固定，后续根据列指定宽度才会严格生效 */
+  table-layout: fixed;
+  width: 100%;
+}
+
+/* API 表格：属性名 (列1) */
+.markdown table th:nth-child(1),
+.markdown table td:nth-child(1) {
+  width: 15%;
+}
+
+/* API 表格：说明 (列2) - 限制宽度并允许换行 */
+.markdown table th:nth-child(2),
+.markdown table td:nth-child(2) {
+  width: 40%;
+  white-space: normal !important; /* 允许换行 */
+  word-wrap: break-word;          /* 长单词换行 */
+  word-break: break-all;
+}
+
+/* API 表格：类型 (列3) */
+.markdown table th:nth-child(3),
+.markdown table td:nth-child(3) {
+  width: 35%;
+}
+
+/* API 表格：默认值 (列4) */
+.markdown table th:nth-child(4),
+.markdown table td:nth-child(4) {
+  width: 10%;
+}
+
+/* 修复 Tailwind 预设样式将所有的 svg 变成 block 的问题 */
+/* 这会导致 Ant Design 的图标（Icon）显示异常（比如独占一行或位置偏移） */
+svg {
+  display: inline-block !important;
+  vertical-align: middle !important; 
+}

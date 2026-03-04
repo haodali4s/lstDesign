@@ -1,0 +1,51 @@
+{
+  "manifest": {
+    "name": "draggablemodal",
+    "private": "false",
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "tsc -b && vite build",
+      "lint": "eslint .",
+      "preview": "vite preview"
+    },
+    "peerDependencies": {
+      "@ant-design/pro-components": "^2.8.7",
+      "antd": "^5.25.2",
+      "react": "^19.1.0",
+      "react-dom": "^19.1.0"
+    },
+    "devDependencies": {
+      "@eslint/js": "^9.25.0",
+      "@types/react": "^19.1.2",
+      "@types/react-dom": "^19.1.2",
+      "@vitejs/plugin-react": "^4.4.1",
+      "eslint": "^9.25.0",
+      "@ant-design/pro-components": "^2.8.7",
+      "antd": "^5.25.2",
+      "react": "^19.1.0",
+      "react-dom": "^19.1.0",
+      "eslint-plugin-react-hooks": "^5.2.0",
+      "eslint-plugin-react-refresh": "^0.4.19",
+      "globals": "^16.0.0",
+      "typescript": "~5.8.3",
+      "typescript-eslint": "^8.30.1",
+      "vite": "^6.3.5"
+    },
+    "_registry": "npm",
+    "_loc": "C:\\Users\\lst\\AppData\\Local\\Yarn\\Cache\\v6\\npm-draggablemodal-0.0.0-4272dfd2-af3d-4765-874d-f55170a1bc7c-1748251300574\\node_modules\\draggablemodal\\package.json",
+    "readmeFilename": "README.md",
+    "readme": "# React + TypeScript + Vite\n\nThis template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.\n\nCurrently, two official plugins are available:\n\n- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh\n- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh\n\n## Expanding the ESLint configuration\n\nIf you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:\n\n```js\nexport default tseslint.config({\n  extends: [\n    // Remove ...tseslint.configs.recommended and replace with this\n    ...tseslint.configs.recommendedTypeChecked,\n    // Alternatively, use this for stricter rules\n    ...tseslint.configs.strictTypeChecked,\n    // Optionally, add this for stylistic rules\n    ...tseslint.configs.stylisticTypeChecked,\n  ],\n  languageOptions: {\n    // other options...\n    parserOptions: {\n      project: ['./tsconfig.node.json', './tsconfig.app.json'],\n      tsconfigRootDir: import.meta.dirname,\n    },\n  },\n})\n```\n\nYou can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:\n\n```js\n// eslint.config.js\nimport reactX from 'eslint-plugin-react-x'\nimport reactDom from 'eslint-plugin-react-dom'\n\nexport default tseslint.config({\n  plugins: {\n    // Add the react-x and react-dom plugins\n    'react-x': reactX,\n    'react-dom': reactDom,\n  },\n  rules: {\n    // other rules...\n    // Enable its recommended typescript rules\n    ...reactX.configs['recommended-typescript'].rules,\n    ...reactDom.configs.recommended.rules,\n  },\n})\n```\n",
+    "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules."
+  },
+  "artifacts": [],
+  "remote": {
+    "type": "copy",
+    "registry": "npm",
+    "hash": "4272dfd2-af3d-4765-874d-f55170a1bc7c-1748251300574",
+    "reference": "D:\\work\\yunmai-ops\\node_modules\\draggablemodal"
+  },
+  "registry": "npm",
+  "hash": "4272dfd2-af3d-4765-874d-f55170a1bc7c-1748251300574"
+}
