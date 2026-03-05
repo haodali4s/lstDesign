@@ -1,8 +1,6 @@
 ---
 title: 可滚动加载选择器 LoadingByScroll
-group:
-  title: 组件
-  order: 1
+
 toc: content
 ---
 
@@ -16,7 +14,7 @@ toc: content
 
 ```tsx
 import React from "react";
-import { LoadingByScroll } from "lstDesign";
+import { LoadingByScroll } from "lstdesign";
 
 // 模拟 API 请求
 const mockSearchRequest = async (
@@ -75,7 +73,7 @@ export default () => {
 
 ```tsx
 import React from "react";
-import { LoadingByScroll } from "lstDesign";
+import { LoadingByScroll } from "lstdesign";
 
 // 模拟 API 请求
 const mockScrollRequest = async (
@@ -130,7 +128,7 @@ export default () => {
 
 ```tsx
 import React from "react";
-import { LoadingByScroll } from "lstDesign";
+import { LoadingByScroll } from "lstdesign";
 
 // 模拟 API 请求
 const mockOptionRenderRequest = async (

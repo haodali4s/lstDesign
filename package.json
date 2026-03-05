@@ -1,6 +1,6 @@
 {
-  "name": "lstDesign",
-  "version": "1.0.0",
+  "name": "lstdesign",
+  "version": "1.0.1",
   "type": "module",
   "main": "dist/lib/index.cjs",
   "module": "dist/es/index.js",
@@ -58,6 +58,7 @@
     "autoprefixer": "^10.4.27",
     "conventional-changelog-cli": "^5.0.0",
     "dumi": "^2.4.21",
+    "easy-performance": "^1.0.6",
     "eslint": "^9.25.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",

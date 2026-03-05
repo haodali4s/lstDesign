@@ -1,4 +1,4 @@
-# lstDesign
+# lstdesign
 
 由于业务需要，基于Ant Design和 ProComponents 封装了一些组件，顺手写个了组件库。
 
@@ -11,9 +11,9 @@
 使用以下任一你喜欢的包管理器进行安装：
 
 ```bash
-npm install lstDesign
+npm install lstdesign
 # 或者
-yarn add lstDesign
+yarn add lstdesign
 # 或者
-pnpm add lstDesign
+pnpm add lstdesign
 ```

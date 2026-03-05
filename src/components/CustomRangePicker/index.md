@@ -1,8 +1,5 @@
 ---
 title: 带快捷选项的时间范围选择器 CustomRangePicker
-group:
-  title: 组件
-  order: 3
 toc: content
 ---
 
@@ -17,7 +14,7 @@ toc: content
 ```tsx
 import React, { useRef } from "react";
 import { ProForm, ProFormInstance } from "@ant-design/pro-components";
-import { CustomRangePicker } from "lstDesign";
+import { CustomRangePicker } from "lstdesign";
 
 export default () => {
   const formRef = useRef<ProFormInstance>(null);
@@ -43,7 +40,7 @@ export default () => {
 ```tsx
 import React, { useRef } from "react";
 import { ProForm, ProFormInstance } from "@ant-design/pro-components";
-import { CustomRangePicker } from "lstDesign";
+import { CustomRangePicker } from "lstdesign";
 
 export default () => {
   const formRef = useRef<ProFormInstance>(null);

@@ -1,22 +1,23 @@
 ---
 title: 介绍
 order: 1
+toc: content
 ---
 
 # 介绍
 
-`lstDesign` 是一个基于 `antd` 和 `@ant-design/pro-components` 的组件库，由于业务场景中原有的组件不能满足所以进行了二次封装，为了方便以后有可能复用故写了个组件库，顺便练练手。
+`lstdesign` 是一个基于 `antd` 和 `@ant-design/pro-components` 的组件库，由于业务场景中原有的组件不能满足所以进行了二次封装，为了方便以后有可能复用故写了个组件库，顺便练练手。
 
 ## 安装
 
 我们推荐使用 `npm` 进行安装，同时也可以使用 `yarn` 或 `pnpm`。
 
 ```bash
-npm install lstDesign
+npm install lstdesign
 # 或者
-yarn add lstDesign
+yarn add lstdesign
 # 或者
-pnpm add lstDesign
+pnpm add lstdesign
 ```
 
 ## 快速使用
@@ -31,7 +32,7 @@ import {
   ProFormItem,
   type ProFormInstance,
 } from "@ant-design/pro-components";
-import { LoadingByScroll, DraggableModal, CustomRangePicker } from "lstDesign";
+import { LoadingByScroll, DraggableModal, CustomRangePicker } from "lstdesign";
 
 // 这是一个使用示例，展示如何在表单弹窗中结合三种组件
 function Demo() {

@@ -1,8 +1,6 @@
 ---
 title: 可拖拽弹窗表单 DraggableModal
-group:
-  title: 组件
-  order: 2
+
 toc: content
 ---
 
@@ -18,7 +16,7 @@ toc: content
 import React from "react";
 import { Button } from "antd";
 import { ModalForm, ProFormText } from "@ant-design/pro-components";
-import { DraggableModal } from "lstDesign";
+import { DraggableModal } from "lstdesign";
 
 export default () => {
   return (
