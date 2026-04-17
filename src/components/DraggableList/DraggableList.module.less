@@ -1,0 +1,130 @@
+/* ==================== 拖拽排序组件样式 ==================== */
+
+.draggableList {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 8px;
+  user-select: none;
+}
+
+.dragItem {
+  display: inline-flex;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  position: relative;
+  white-space: nowrap;
+  padding: 0;
+
+  &:hover {
+    border-color: #1677ff;
+    box-shadow: 0 2px 8px rgba(22, 119, 255, 15%);
+  }
+
+  &:active {
+    cursor: grabbing;
+  }
+}
+
+.dragHandle {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  cursor: grab;
+  flex-shrink: 0;
+
+  &:active {
+    cursor: grabbing;
+  }
+}
+
+.orderBadge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #1677ff;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.dragContent {
+  flex: 1;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 88%);
+}
+
+.dragMain {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 0 6px 12px;
+  cursor: grab;
+
+  &:active {
+    cursor: grabbing;
+  }
+}
+
+.checkboxArea {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 8px;
+  cursor: default;
+  height: 100%;
+
+  :global {
+    .ant-checkbox {
+      transform: scale(1.1);
+    }
+  }
+}
+
+.dragging {
+  opacity: 0.3 !important;
+  border-style: dashed !important;
+}
+
+.over {
+  box-shadow: -3px 0 0 0 #1677ff !important;
+}
+
+.disabled {
+  cursor: not-allowed;
+  opacity: 0.65;
+
+  &:hover {
+    border-color: #d9d9d9;
+    box-shadow: none;
+  }
+
+  .dragMain,
+  .dragHandle {
+    cursor: not-allowed;
+  }
+}
+
+:global {
+  .lst-draggable-list {
+    /* hook */
+  }
+
+  .lst-draggable-item {
+    /* hook */
+  }
+
+  .lst-draggable-handle {
+    /* hook */
+  }
+
+  .lst-draggable-content {
+    /* hook */
+  }
+}

@@ -5,7 +5,7 @@ export default defineConfig({
     name: "lstdesign",
     nav: [
       { title: "介绍", link: "/guide" },
-      { title: "组件", link: "/components/loading-by-scroll" }, // 自动生成的路由通常是小写
+      { title: "组件", link: "/components/loading-by-scroll" },
     ],
   },
   apiParser: {},

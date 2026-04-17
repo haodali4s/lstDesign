@@ -6,3 +6,6 @@ export type { CustomRangePickerProps } from "./components/CustomRangePicker";
 
 export { default as LoadingByScroll } from "./components/LoadingByScroll";
 export type { LoadingByScrollProps } from "./components/LoadingByScroll";
+
+export { default as DraggableList } from "./components/DraggableList";
+export type { DraggableListProps } from "./components/DraggableList";

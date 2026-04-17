@@ -1,7 +1,7 @@
 ---
 hero:
   title: lstdesign
-  description: 记录菜比前端的成长日常
+  description: 我闲的
   actions:
     - text: 快速开始
       link: /guide

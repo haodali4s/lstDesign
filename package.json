@@ -25,8 +25,11 @@
   "keywords": [
     "react",
     "antd",
-    "modal",
-    "draggable"
+    "ui-components",
+    "draggable-modal",
+    "draggable-list",
+    "scrolled-select",
+    "range-picker"
   ],
   "author": "Haodali",
   "scripts": {
